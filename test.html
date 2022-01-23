@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#more {display: none;}
+</style>
+</head>
+<body>
+
+  <div class="card" data-city="buda">
+    <p>
+        Budapest is the capital city of Hungary. It is best known for its arts and culture. It is a relatively 
+        small city, however there are much to see and do.
+        <span class="dots">...</span>
+        <span class="more" style="display: none;">Situated on thermal springs, there are many naturally heated 
+          baths to relax in, the Széchenyi baths are the largest with 
+          15 indoor baths and 3 outdoor. There are many spectacular viewpoints in Budapest, great for capturin
+          g the views of the city. From 360 panoramic views up at St S
+          tephens Basilica to a wide view of the parliament and the River at Fisherman’s Bastion. Visit the Mu
+          seum of Fine Arts and enjoy a day amongst famous European ar
+          t. Classical music lovers will appreciate a performance at the Academy of Music.</span>
+    </p>
+    <button onclick="readMore('buda')" class="myBtn">Read more</button>
+</div>
+<br>
+<div>
+  <p>
+    ahbar
+  </p>
+<div class="card" data-city="barca">
+    <p>
+        Barcelona, framed for its individuality, cultural interest, and physical
+         beauty, home to art and architecture. Facing the Mediterranean to the southeast,
+        <span class="dots">...</span>
+        <span class="more" style="display: none;"> the city is one of a kind. 
+          
+          Upon visiting make sure you visit the spectacular and unique Park Güell which was 
+          firstly designed for a town up in the mountains by artist Antoni Gau
+          dí. Gaudí's work is admired by architects around the World as being one of the most
+           unique and distinctive styles in modern architecture. Other places 
+           worth visiting is the La Sagrada Família, is a giant basilica. With
+           # beaches on your
+            doorstop, and art and city culture, this diverse city has everything
+             to offer.</span>
+    </p>
+    <button onclick="readMore('barca')" class="myBtn">Read more</button>
+</div>
+</div>
+
+<script>
+function readMore(city) {
+    let dots = document.querySelector(`.card[data-city="${city}"] .dots`);
+    let moreText = document.querySelector(`.card[data-city="${city}"] .more`); 
+    let btnText = document.querySelector(`.card[data-city="${city}"] .myBtn`);
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.textContent = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.textContent = "Read less"; 
+        moreText.style.display = "inline";
+    }
+}
+</script>
+
+</body>
+</html>
+
+
