@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +8,39 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="apple-touch-icon" href="assets/img/apple-icon.png" />
+        <!-- styling -->
+        <style>
+            .event-title {
+                color: rgb(181, 7, 137);
+                font-family: "Righteous", cursive;
+                font-size: 30px;
+                font-weight: bold;
+                line-height: 60px;
+                margin: 10px 0 20px;
+                text-transform: uppercase;
+                text-shadow: 2px 2px 0 rgb(175, 175, 175);
+                margin: 10px 0 24px;
+                text-align: center;
+            }
+            .bg-perso1, .bg-perso2{
+                border-radius: 0px;
+    background: #fafafa;
+    box-shadow:  5px 5px 18px #ebebeb,
+                 -5px -5px 18px #ffffff;
+            
+                 margin: 38px;
+                 padding: 7px !important;
+    
+                 
+            }
+            .sections{
+                background: #ffffff;
+                padding: 20px;
+                margin: 0;
+            }
+    
+         </style>
+    <link rel="apple-touch-icon" href="assets/img/icon.png" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -14,42 +48,16 @@
     <link rel="stylesheet" href="assets/css/custom.css" />
 
     <!-- Load fonts style after rendering the layout styles -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap" />
+    <link href="http://fonts.cdnfonts.com/css/quicksand" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!--
+    
+TemplateMo 559 Zay Shop
 
-    <!-- styling -->
-    <style>
-        .event-title {
-            color: rgb(181, 7, 137);
-            font-family: "Righteous", cursive;
-            font-size: 30px;
-            font-weight: bold;
-            line-height: 60px;
-            margin: 10px 0 20px;
-            text-transform: uppercase;
-            text-shadow: 2px 2px 0 rgb(175, 175, 175);
-            margin: 10px 0 24px;
-            text-align: center;
-        }
-        .bg-perso1, .bg-perso2{
-            border-radius: 0px;
-background: #fafafa;
-box-shadow:  5px 5px 18px #ebebeb,
-             -5px -5px 18px #ffffff;
-        
-             margin: 38px;
-             padding: 7px !important;
+https://templatemo.com/tm-559-zay-shop
 
-             
-        }
-        .sections{
-            background: #ffffff;
-            padding: 20px;
-            margin: 0;
-        }
-
-     </style>
+-->
 </head>
 
 <body>
@@ -58,14 +66,14 @@ box-shadow:  5px 5px 18px #ebebeb,
         <div class="container text-light">
             <div class="w-100 d-flex justify-content-between">
                 <div>
-                    <i class="fa fa-envelope mx-2"></i>
+                    <i aria-hidden="true" class="fa fa-envelope mx-2"></i>
                     <a class="navbar-sm-brand text-light text-decoration-none"
                         href="mailto:info@company.com">info@company.com</a>
                     <i class="fa fa-phone mx-2"></i>
                     <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
                 </div>
                 <div>
-                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i
+                    <a class="text-light" href="https://fb.com/" target="_blank" rel="sponsored"><i
                             class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
                     <a class="text-light" href="https://www.instagram.com/" target="_blank"><i
                             class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
@@ -83,7 +91,7 @@ box-shadow:  5px 5px 18px #ebebeb,
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
             <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
-                <img src="assets\img\apple-icon.png" alt="ADEI Logo" width="150" />
+                <img src="assets\img\apple-icon.png" alt="ADEI Logo" width="150">
             </a>
 
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
@@ -105,11 +113,9 @@ box-shadow:  5px 5px 18px #ebebeb,
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Accueil</a>
                         </li>
-                        
                         <li class="nav-item">
                             <a class="nav-link" href="Compus.html">Compus</a>
                         </li>
-                    
                         <li class="nav-item">
                             <a class="nav-link" href="pedagogique.html">Pédagogique</a>
                         </li>
@@ -124,10 +130,14 @@ box-shadow:  5px 5px 18px #ebebeb,
                         </li>
                     </ul>
                 </div>
-               
+
             </div>
         </div>
     </nav>
+    <!-- Close Header -->
+
+
+
 
 
 <div class="sections">
@@ -156,7 +166,7 @@ box-shadow:  5px 5px 18px #ebebeb,
             </div>
         </div>
     </section>
-    ></div>
+    </div>
     <!-- Close Banner -->
 
     <!-- Start Section -->
@@ -171,18 +181,12 @@ box-shadow:  5px 5px 18px #ebebeb,
             <div class="col-md-4">
                 <div class="card mb-4 product-wap rounded-0">
                     <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white" href="shop-single.html"><img src="Social Icons\Asset 3@3x.png" style="height: 30px;" ></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 4@3x.png" style="height: 30px;"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Asset 7@3x.png" style="height: 30px;"></a></li>
-                            </ul>
-                        </div>
+                        <img class="card-img rounded-0 img-fluid" src="assets/img/logos/CELEC.png">
+                        
                     </div>
+
                     <div class="card-body">
                         <a href="shop-single.html" class="h3 text-decoration-none">CELEC</a>
-                        <p class="text-center mb-0" style="text-align: justify;"> . </p>
                         <div class="card1" data-city="data1">
                             <p style="text-align: justify;">
                                 Le CELEC est l'un des clubs de l'ensem qui s'est intéressé au domaine de l'électricité,
@@ -208,19 +212,14 @@ box-shadow:  5px 5px 18px #ebebeb,
                 </div>
             </div>
             <!-- End 1 -->
+
+
             <!-- Start 2 -->
             <div class="col-md-4">
                 <div class="card mb-4 product-wap rounded-0">
                     <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white" href="shop-single.html"><img src="Social Icons\Asset 3@3x.png" style="width: 30px"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 4@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 5@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Asset 7@3x.png" style="width: 30px"></a></li>
-                            </ul>
-                        </div>
+                        <img class="card-img rounded-0 img-fluid" src="assets/img/logos/CDM.png">
+                       
                     </div>
                     <div class="card-body">
                         <a href="shop-single.html" class="h3 text-decoration-none">CIDH</a>
@@ -243,19 +242,13 @@ box-shadow:  5px 5px 18px #ebebeb,
                 </div>
             </div>
             <!-- End 2 -->
+
             <!-- Start 3 -->
             <div class="col-md-4">
                 <div class="card mb-4 product-wap rounded-0">
                     <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white" href="shop-single.html"><img src="Social Icons\Asset 3@3x.png" style="width: 30px"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 4@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 5@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Asset 7@3x.png" style="width: 30px"></a></li>
-                            </ul>
-                        </div>
+                        <img class="card-img rounded-0 img-fluid" src="assets/img/logos/CELEC.png">
+
                     </div>
                     <div class="card-body">
                         <a href="shop-single.html" class="h3 text-decoration-none">CSC</a>
@@ -282,19 +275,14 @@ box-shadow:  5px 5px 18px #ebebeb,
                 </div>
             </div>
             <!-- End 3 -->
+
+
             <!-- Start 4 -->
             <div class="col-md-4">
                 <div class="card mb-4 product-wap rounded-0">
                     <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white" href="shop-single.html"><img src="Social Icons\Asset 3@3x.png" style="width: 30px"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 4@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 5@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Asset 7@3x.png" style="width: 30px"></a></li>
-                            </ul>
-                        </div>
+                        <img class="card-img rounded-0 img-fluid" src="assets/img/logos/FEE.png">
+
                     </div>
                     <div class="card-body">
                         <a href="shop-single.html" class="h3 text-decoration-none">Forum</a>
@@ -324,19 +312,13 @@ background: #fafafa;
 box-shadow:  5px 5px 18px #ebebeb,
              -5px -5px 18px #ffffff;
             -->
+
              <!-- Start 5 -->
              <div class="col-md-4">
                 <div class="card mb-4 product-wap rounded-0">
                     <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white" href="shop-single.html"><img src="Social Icons\Asset 3@3x.png" style="width: 30px"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 4@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 5@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Asset 7@3x.png" style="width: 30px"></a></li>
-                            </ul>
-                        </div>
+                        <img class="card-img rounded-0 img-fluid" src="assets/img/logos/Plast.png">
+
                     </div>
                     <div class="card-body">
                         <a href="shop-single.html" class="h3 text-decoration-none">Plastlab
@@ -362,19 +344,13 @@ box-shadow:  5px 5px 18px #ebebeb,
                 </div>
             </div>
             <!-- End 5 -->
+
              <!-- Start 6 -->
              <div class="col-md-4">
                 <div class="card mb-4 product-wap rounded-0">
                     <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white" href="shop-single.html"><img src="Social Icons\Asset 3@3x.png" style="width: 30px"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 4@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 5@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Asset 7@3x.png" style="width: 30px"></a></li>
-                            </ul>
-                        </div>
+                        <img class="card-img rounded-0 img-fluid" src="assets/img/logos/Junior.png">
+
                     </div>
                     <div class="card-body">
                         <a href="shop-single.html" class="h3 text-decoration-none">junior</a>
@@ -403,19 +379,13 @@ box-shadow:  5px 5px 18px #ebebeb,
                 </div>
             </div>
             <!-- End 6  -->
+
              <!-- Start 7 -->
              <div class="col-md-4">
                 <div class="card mb-4 product-wap rounded-0">
                     <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white" href="shop-single.html"><img src="Social Icons\Asset 3@3x.png" style="width: 30px"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 4@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 5@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Asset 7@3x.png" style="width: 0px;"></a></li>    
-                            </ul>
-                        </div>
+                        <img class="card-img rounded-0 img-fluid" src="assets/img/logos/CELEC.png">
+
                     </div>
                     <div class="card-body">
                         <a href="shop-single.html" class="h3 text-decoration-none">Indus</a>
@@ -434,19 +404,13 @@ box-shadow:  5px 5px 18px #ebebeb,
                 </div>
             </div>
             <!-- End 7 -->
+
              <!-- Start 8 -->
              <div class="col-md-4">
                 <div class="card mb-4 product-wap rounded-0">
                     <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white" href="shop-single.html"><img src="Social Icons\Asset 3@3x.png" style="width: 30px"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 4@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 5@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Asset 7@3x.png" style="width: 30px"></a></li>
-                            </ul>
-                        </div>
+                        <img class="card-img rounded-0 img-fluid" src="assets/img/logos/CELEC.png">
+
                     </div>
                     <div class="card-body">
                         <a href="shop-single.html" class="h3 text-decoration-none">MSC</a>
@@ -468,15 +432,8 @@ box-shadow:  5px 5px 18px #ebebeb,
              <div class="col-md-4">
                 <div class="card mb-4 product-wap rounded-0">
                     <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white" href="shop-single.html"><img src="Social Icons\Asset 3@3x.png" style="width: 30px"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 4@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 5@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Asset 7@3x.png" style="width: 30px"></a></li>
-                            </ul>
-                        </div>
+                        <img class="card-img rounded-0 img-fluid" src="assets/img/logos/Aero.png">
+
                     </div>
                     <div  class="card-body">
                         <a href="shop-single.html" class="h3 text-decoration-none">ENSEM AÉRO                         </a>
@@ -496,15 +453,8 @@ box-shadow:  5px 5px 18px #ebebeb,
              <div class="col-md-4">
                 <div class="card mb-4 product-wap rounded-0">
                     <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white" href="shop-single.html"><img src="Social Icons\Asset 3@3x.png" style="width: 30px"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 4@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 5@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Asset 7@3x.png" style="width: 30px"></a></li>
-                            </ul>
-                        </div>
+                        <img class="card-img rounded-0 img-fluid" src="assets/img/logos/Masjid.png">
+
                     </div>
                     <div class="card-body">
                         <a href="shop-single.html" class="h3 text-decoration-none">masjid</a>
@@ -527,15 +477,8 @@ box-shadow:  5px 5px 18px #ebebeb,
              <div class="col-md-4">
                 <div class="card mb-4 product-wap rounded-0">
                     <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white" href="shop-single.html"><img src="Social Icons\Asset 3@3x.png" style="width: 30px"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 4@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 5@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Asset 7@3x.png" style="width: 30px"></a></li>
-                            </ul>
-                        </div>
+                        <img class="card-img rounded-0 img-fluid" src="assets/img/logos/Sport.png">
+
                     </div>
                     <div class="card-body">
                         <a href="shop-single.html" class="h3 text-decoration-none">Sport</a>
@@ -563,15 +506,8 @@ box-shadow:  5px 5px 18px #ebebeb,
              <div class="col-md-4">
                 <div class="card mb-4 product-wap rounded-0">
                     <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white" href="shop-single.html"><img src="Social Icons\Asset 3@3x.png" style="width: 30px"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 4@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 5@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Asset 7@3x.png" style="width: 30px"></a></li>
-                            </ul>
-                        </div>
+                        <img class="card-img rounded-0 img-fluid" src="assets/img/logos/Enactus.png">
+
                     </div>
                     <div class="card-body">
                         <a href="shop-single.html" class="h3 text-decoration-none">Enactus</a>
@@ -588,15 +524,8 @@ box-shadow:  5px 5px 18px #ebebeb,
              <div class="col-md-4">
                 <div class="card mb-4 product-wap rounded-0">
                     <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white" href="shop-single.html"><img src="Social Icons\Asset 3@3x.png" style="width: 30px"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 4@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 5@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Asset 7@3x.png" style="width: 30px"></a></li>
-                            </ul>
-                        </div>
+                        <img class="card-img rounded-0 img-fluid" src="assets/img/logos/Spirit.png">
+   
                     </div>
                     <div class="card-body">
                         <a href="shop-single.html" class="h3 text-decoration-none">Spirit</a>
@@ -617,15 +546,8 @@ box-shadow:  5px 5px 18px #ebebeb,
              <div class="col-md-4">
                 <div class="card mb-4 product-wap rounded-0">
                     <div class="card rounded-0">
-                        <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                        <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                            <ul class="list-unstyled">
-                                <li><a class="btn btn-success text-white" href="shop-single.html"><img src="Social Icons\Asset 3@3x.png" style="width: 30px"></i></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 4@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Social Icons\Asset 5@3x.png" style="width: 30px"></a></li>
-                                <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><img src="Asset 7@3x.png" style="width: 30px"></a></li>
-                            </ul>
-                        </div>
+                        <img class="card-img rounded-0 img-fluid" src="assets/img/logos/CELEC.png">
+
                     </div>
                     <div class="card-body">
                         <a href="shop-single.html" class="h3 text-decoration-none">J-Ensem</a>
@@ -650,7 +572,10 @@ box-shadow:  5px 5px 18px #ebebeb,
 
     <!-- End Section -->
 
-    <!-- Start Brands -->
+
+
+
+    <!-- Start partenaires -->
     <section class="bg-light py-5">
         <div class="container my-4">
             <div class="row text-center py-3">
@@ -684,69 +609,24 @@ box-shadow:  5px 5px 18px #ebebeb,
                                         <div class="row">
                                             <div class="col-3 p-md-5">
                                                 <a href="#"><img class="img-fluid brand-img"
-                                                        src="assets/img/brand_01.png" alt="Brand Logo" /></a>
+                                                        src="assets/img/logo.png" alt="Brand Logo" /></a>
                                             </div>
                                             <div class="col-3 p-md-5">
                                                 <a href="#"><img class="img-fluid brand-img"
-                                                        src="assets/img/brand_02.png" alt="Brand Logo" /></a>
+                                                        src="assets/img/logo.png" alt="Brand Logo" /></a>
                                             </div>
                                             <div class="col-3 p-md-5">
                                                 <a href="#"><img class="img-fluid brand-img"
-                                                        src="assets/img/brand_03.png" alt="Brand Logo" /></a>
+                                                        src="assets/img/logo.png" alt="Brand Logo" /></a>
                                             </div>
                                             <div class="col-3 p-md-5">
                                                 <a href="#"><img class="img-fluid brand-img"
-                                                        src="assets/img/brand_04.png" alt="Brand Logo" /></a>
+                                                        src="assets/img/logo.png" alt="Brand Logo" /></a>
                                             </div>
                                         </div>
                                     </div>
                                     <!--End First slide-->
 
-                                    <!--Second slide-->
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img"
-                                                        src="assets/img/brand_01.png" alt="Brand Logo" /></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img"
-                                                        src="assets/img/brand_02.png" alt="Brand Logo" /></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img"
-                                                        src="assets/img/brand_03.png" alt="Brand Logo" /></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img"
-                                                        src="assets/img/brand_04.png" alt="Brand Logo" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Second slide-->
-
-                                    <!--Third slide-->
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img"
-                                                        src="assets/img/brand_01.png" alt="Brand Logo" /></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img"
-                                                        src="assets/img/brand_02.png" alt="Brand Logo" /></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img"
-                                                        src="assets/img/brand_03.png" alt="Brand Logo" /></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img"
-                                                        src="assets/img/brand_04.png" alt="Brand Logo" /></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Third slide-->
                                 </div>
                                 <!--End Slides-->
                             </div>
@@ -765,7 +645,10 @@ box-shadow:  5px 5px 18px #ebebeb,
             </div>
         </div>
     </section>
-    <!--End Brands-->
+    <!--End partenaires-->
+
+
+
 
     <!-- Start Footer -->
     <footer class="bg-dark" id="tempaltemo_footer">
@@ -773,12 +656,12 @@ box-shadow:  5px 5px 18px #ebebeb,
             <div class="row">
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-success border-bottom pb-3 border-light logo">
-                        Zay Shop
+                        ADEI ENSEM
                     </h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fas fa-map-marker-alt fa-fw"></i>
-                            123 Consectetur at ligula 10660
+                           L'adresse exact bla bla 12 , hay assalam Casa
                         </li>
                         <li>
                             <i class="fa fa-phone fa-fw"></i>
@@ -793,22 +676,14 @@ box-shadow:  5px 5px 18px #ebebeb,
 
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">
-                        Products
+                        Clubs
                     </h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Luxury</a></li>
-                        <li><a class="text-decoration-none" href="#">Sport Wear</a></li>
-                        <li><a class="text-decoration-none" href="#">Men's Shoes</a></li>
-                        <li>
-                            <a class="text-decoration-none" href="#">Women's Shoes</a>
-                        </li>
-                        <li>
-                            <a class="text-decoration-none" href="#">Popular Dress</a>
-                        </li>
-                        <li>
-                            <a class="text-decoration-none" href="#">Gym Accessories</a>
-                        </li>
-                        <li><a class="text-decoration-none" href="#">Sport Shoes</a></li>
+                        <li><a class="text-decoration-none" href="#">Club 1 bla blabla</a></li>
+                        <li><a class="text-decoration-none" href="#">Club 1 bla blabla</a></li>
+                        <li><a class="text-decoration-none" href="#">Club 1 bla blabla</a></li>
+                        <li><a class="text-decoration-none" href="#">Club 1 bla blabla</a></li>
+                        
                     </ul>
                 </div>
 
@@ -819,9 +694,6 @@ box-shadow:  5px 5px 18px #ebebeb,
                     <ul class="list-unstyled text-light footer-link-list">
                         <li><a class="text-decoration-none" href="#">Home</a></li>
                         <li><a class="text-decoration-none" href="#">About Us</a></li>
-                        <li>
-                            <a class="text-decoration-none" href="#">Shop Locations</a>
-                        </li>
                         <li><a class="text-decoration-none" href="#">FAQs</a></li>
                         <li><a class="text-decoration-none" href="#">Contact</a></li>
                     </ul>
@@ -840,8 +712,8 @@ box-shadow:  5px 5px 18px #ebebeb,
                   rounded-circle
                   text-center
                 ">
-                            <a rel="nofollow" class="text-light text-decoration-none" target="_blank"
-                                href="http://fb.com/templatemo"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i
+                                    class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                         </li>
                         <li class="
                   list-inline-item
@@ -889,9 +761,9 @@ box-shadow:  5px 5px 18px #ebebeb,
             <div class="container">
                 <div class="row pt-2">
                     <div class="col-12">
-                        <p class="text-left text-light">
-                            Copyright &copy; 2021 Company Name | Designed by
-                            <a rel="sponsored" href="https://templatemo.com/page/1" target="_blank">TemplateMo</a>
+                        <p class="text-center text-light">
+                            Copyright &copy; All rights reserved &nbsp;|&nbsp;
+                            <a rel="sponsored" href="" target="_blank">ADEI ENSEM</a>
                         </p>
                     </div>
                 </div>
@@ -899,6 +771,7 @@ box-shadow:  5px 5px 18px #ebebeb,
         </div>
     </footer>
     <!-- End Footer -->
+
 
     <!-- Start Script -->
     <script>

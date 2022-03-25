@@ -15,3 +15,19 @@ form > div{
     width: 300px;
     height: 300px;
   }
+  img{
+    border-width: 0ch !important;
+  }
+
+.t1 {
+    color: rgb(54, 187, 187);
+  }
+.t2{
+    color: rgb(216, 37, 207);
+  }
+.t3 {
+    color: rgb(233, 152, 1);
+  }
+.t4{
+    color: rgb(56, 173, 101);
+  }
