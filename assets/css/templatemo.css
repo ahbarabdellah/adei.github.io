@@ -229,7 +229,6 @@ article, aside, figcaption, figure, footer, header, hgroup, legend, main, nav, s
   border-radius: 35px;
   font-weight: 500;
   border: 1px solid #D30073 ;
-  position: relative;
   z-index: 1;
   transition: .2s ease;
 }
